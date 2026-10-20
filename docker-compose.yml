@@ -52,7 +52,7 @@ services:
 
   # ── 3. Adminer — interface web pour PostgreSQL ────────────────────────────
   adminer:
-    image: adminer:latest
+    image: adminer:6.1.2
     container_name: guestbook_adminer
     restart: unless-stopped
     ports:
