@@ -10,7 +10,7 @@ services:
     container_name: guestbook_web
     restart: unless-stopped
     ports:
-      - "5000:5000"
+      - "8085:5000"
 #    secrets:
 #      - db_password
     environment:
